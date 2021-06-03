@@ -104,6 +104,9 @@
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc/gpio.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
+		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc/i2c.h">
+			<Option target="testTFTforATKF4.elf"/>
+		</Unit>
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc/main.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
@@ -116,6 +119,9 @@
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc/stm32f4xx_it.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
+		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc/touch.h">
+			<Option target="testTFTforATKF4.elf"/>
+		</Unit>
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc/usart.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
@@ -123,6 +129,9 @@
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/gpio.c">
+			<Option target="testTFTforATKF4.elf"/>
+		</Unit>
+		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/i2c.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/main.c">
@@ -144,6 +153,9 @@
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/system_stm32f4xx.c">
+			<Option target="testTFTforATKF4.elf"/>
+		</Unit>
+		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/touch.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/usart.c">
@@ -260,6 +272,12 @@
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
+		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="testTFTforATKF4.elf"/>
+		</Unit>
+		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="testTFTforATKF4.elf"/>
+		</Unit>
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
@@ -312,6 +330,12 @@
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="testTFTforATKF4.elf"/>
+		</Unit>
+		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="testTFTforATKF4.elf"/>
+		</Unit>
+		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">

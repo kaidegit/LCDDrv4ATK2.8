@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../Core/Inc/main.h
+stm32f4xx_hal.h
+../Core/Inc/stm32f4xx_hal.h
+
 ../Core/Inc/main_cpp.h
 
 ../Core/Inc/stm32f4xx_hal_conf.h
@@ -107,6 +111,14 @@ stm32f4xx_hal_lptim.h
 ../Core/Inc/stm32f4xx_hal_lptim.h
 stm32f4xx_hal_mmc.h
 ../Core/Inc/stm32f4xx_hal_mmc.h
+
+../Core/Inc/touch.h
+main.h
+../Core/Inc/main.h
+
+../Core/Inc/usart.h
+main.h
+../Core/Inc/main.h
 
 ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 core_cm4.h
@@ -270,6 +282,16 @@ stm32f4xx_hal_gpio_ex.h
 stm32f4xx_hal_def.h
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h
+stm32f4xx_hal_def.h
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+stm32f4xx_hal_i2c_ex.h
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h
+
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h
+stm32f4xx_hal_def.h
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 stm32f4xx_hal_def.h
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
@@ -319,10 +341,18 @@ stm32f4xx_hal.h
 ../Hardwares/LCD/stm32f4xx_hal.h
 
 /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/main_cpp.cpp
+cstdio
+-
+cstring
+-
 main_cpp.h
 /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/main_cpp.h
 stm32f4xx_hal.h
 /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/stm32f4xx_hal.h
 lcd.h
 /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/lcd.h
+touch.h
+/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/touch.h
+usart.h
+/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/usart.h
 

@@ -103,9 +103,22 @@ CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/gpio.c.s"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/gpio.c -o CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/gpio.c.s
 
+CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
+CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/i2c.c.obj: ../Core/Src/i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/i2c.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/i2c.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/i2c.c
+
+CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/i2c.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/i2c.c > CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/i2c.c.i
+
+CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/i2c.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/i2c.c -o CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/i2c.c.s
+
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/main.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main.c.i: cmake_force
@@ -118,7 +131,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main.c.s: cmake_force
 
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main_cpp.cpp.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main_cpp.cpp.obj: ../Core/Src/main_cpp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main_cpp.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main_cpp.cpp.obj"
 	/usr/local/bin/arm-none-eabi-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main_cpp.cpp.obj -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/main_cpp.cpp
 
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main_cpp.cpp.i: cmake_force
@@ -131,7 +144,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main_cpp.cpp.s: cmake_force
 
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/pic.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/pic.c.obj: ../Core/Src/pic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/pic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/pic.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/pic.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/pic.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/pic.c.i: cmake_force
@@ -144,7 +157,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/pic.c.s: cmake_force
 
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/stm32f4xx_hal_msp.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -157,7 +170,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_it.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/stm32f4xx_it.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -170,7 +183,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/syscalls.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/syscalls.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/syscalls.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -183,7 +196,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/system_stm32f4xx.c.obj: ../Core/Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/system_stm32f4xx.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/system_stm32f4xx.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -194,9 +207,22 @@ CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/system_stm32f4xx.c.s"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/system_stm32f4xx.c -o CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/system_stm32f4xx.c.s
 
+CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
+CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.obj: ../Core/Src/touch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/touch.c
+
+CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/touch.c > CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.i
+
+CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/touch.c -o CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.s
+
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/usart.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/usart.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/usart.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/usart.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -209,7 +235,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -222,7 +248,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -235,7 +261,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -248,7 +274,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -261,7 +287,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -274,7 +300,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -287,7 +313,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -300,7 +326,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -313,7 +339,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -324,9 +350,35 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 
+CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
+CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
+
+CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c > CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+
+CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+
+CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
+CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
+
+CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c > CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+
+CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -339,7 +391,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -352,7 +404,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -365,7 +417,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -378,7 +430,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.i: cmake_force
@@ -391,7 +443,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -404,7 +456,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -417,7 +469,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -430,7 +482,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ha
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.i: cmake_force
@@ -443,7 +495,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll
 
 CMakeFiles/testTFTforATKF4.elf.dir/Hardwares/LCD/lcd.c.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/Hardwares/LCD/lcd.c.obj: ../Hardwares/LCD/lcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Hardwares/LCD/lcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/testTFTforATKF4.elf.dir/Hardwares/LCD/lcd.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/Hardwares/LCD/lcd.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/LCD/lcd.c
 
 CMakeFiles/testTFTforATKF4.elf.dir/Hardwares/LCD/lcd.c.i: cmake_force
@@ -456,13 +508,14 @@ CMakeFiles/testTFTforATKF4.elf.dir/Hardwares/LCD/lcd.c.s: cmake_force
 
 CMakeFiles/testTFTforATKF4.elf.dir/startup/startup_stm32f407xx.s.obj: CMakeFiles/testTFTforATKF4.elf.dir/flags.make
 CMakeFiles/testTFTforATKF4.elf.dir/startup/startup_stm32f407xx.s.obj: ../startup/startup_stm32f407xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/testTFTforATKF4.elf.dir/startup/startup_stm32f407xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/testTFTforATKF4.elf.dir/startup/startup_stm32f407xx.s.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/testTFTforATKF4.elf.dir/startup/startup_stm32f407xx.s.obj -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/startup/startup_stm32f407xx.s
 
 # Object files for target testTFTforATKF4.elf
 testTFTforATKF4_elf_OBJECTS = \
 "CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/fsmc.c.obj" \
 "CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/gpio.c.obj" \
+"CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/i2c.c.obj" \
 "CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main_cpp.cpp.obj" \
 "CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/pic.c.obj" \
@@ -470,6 +523,7 @@ testTFTforATKF4_elf_OBJECTS = \
 "CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_it.c.obj" \
 "CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/syscalls.c.obj" \
 "CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/system_stm32f4xx.c.obj" \
+"CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.obj" \
 "CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/usart.c.obj" \
 "CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
 "CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" \
@@ -480,6 +534,8 @@ testTFTforATKF4_elf_OBJECTS = \
 "CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" \
 "CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" \
 "CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" \
+"CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj" \
+"CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj" \
 "CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" \
 "CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" \
 "CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" \
@@ -497,6 +553,7 @@ testTFTforATKF4_elf_EXTERNAL_OBJECTS =
 
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/fsmc.c.obj
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/gpio.c.obj
+testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/i2c.c.obj
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main.c.obj
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main_cpp.cpp.obj
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/pic.c.obj
@@ -504,6 +561,7 @@ testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_hal_m
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_it.c.obj
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/syscalls.c.obj
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/system_stm32f4xx.c.obj
+testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.obj
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/usart.c.obj
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
@@ -514,6 +572,8 @@ testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Dr
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
@@ -527,7 +587,7 @@ testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/Hardwares/LCD/lcd.c.obj
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/startup/startup_stm32f407xx.s.obj
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/build.make
 testTFTforATKF4.elf: CMakeFiles/testTFTforATKF4.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable testTFTforATKF4.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable testTFTforATKF4.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testTFTforATKF4.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/testTFTforATKF4.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/testTFTforATKF4.bin"

@@ -216,11 +216,11 @@ void LCD_Color_Fill(uint16_t sx, uint16_t sy, uint16_t ex, uint16_t ey, uint16_t
     }
 }
 
-void LCD_ShowImage(uint16_t x_start, uint16_t y_start, uint16_t x_end, uint16_t y_end, const uint16_t *color){
+void LCD_ShowImage(uint16_t x_start, uint16_t y_start, uint16_t x_end, uint16_t y_end, const uint16_t *color) {
     uint16_t height, width;
     uint16_t i, j;
-    width = x_end - x_start + 1;
-    height = y_end - y_start + 1;
+    width = x_end - x_start;
+    height = y_end - y_start;
     for (i = 0; i < height; i++) {
         LCD_SetCursor(x_start, y_start + i);
         LCD_WriteRAM_Prepare();

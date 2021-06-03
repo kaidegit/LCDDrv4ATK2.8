@@ -197,6 +197,33 @@ Core/Src/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/gpio.c.s
 .PHONY : Core/Src/gpio.c.s
 
+Core/Src/i2c.obj: Core/Src/i2c.c.obj
+
+.PHONY : Core/Src/i2c.obj
+
+# target to build an object file
+Core/Src/i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/i2c.c.obj
+.PHONY : Core/Src/i2c.c.obj
+
+Core/Src/i2c.i: Core/Src/i2c.c.i
+
+.PHONY : Core/Src/i2c.i
+
+# target to preprocess a source file
+Core/Src/i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/i2c.c.i
+.PHONY : Core/Src/i2c.c.i
+
+Core/Src/i2c.s: Core/Src/i2c.c.s
+
+.PHONY : Core/Src/i2c.s
+
+# target to generate assembly for a file
+Core/Src/i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/i2c.c.s
+.PHONY : Core/Src/i2c.c.s
+
 Core/Src/main.obj: Core/Src/main.c.obj
 
 .PHONY : Core/Src/main.obj
@@ -385,6 +412,33 @@ Core/Src/system_stm32f4xx.s: Core/Src/system_stm32f4xx.c.s
 Core/Src/system_stm32f4xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/system_stm32f4xx.c.s
 .PHONY : Core/Src/system_stm32f4xx.c.s
+
+Core/Src/touch.obj: Core/Src/touch.c.obj
+
+.PHONY : Core/Src/touch.obj
+
+# target to build an object file
+Core/Src/touch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.obj
+.PHONY : Core/Src/touch.c.obj
+
+Core/Src/touch.i: Core/Src/touch.c.i
+
+.PHONY : Core/Src/touch.i
+
+# target to preprocess a source file
+Core/Src/touch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.i
+.PHONY : Core/Src/touch.c.i
+
+Core/Src/touch.s: Core/Src/touch.c.s
+
+.PHONY : Core/Src/touch.s
+
+# target to generate assembly for a file
+Core/Src/touch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.s
+.PHONY : Core/Src/touch.c.s
 
 Core/Src/usart.obj: Core/Src/usart.c.obj
 
@@ -655,6 +709,60 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s: Drivers/STM32F4xx_HAL_Dri
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.s
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 
@@ -950,6 +1058,9 @@ help:
 	@echo "... Core/Src/gpio.obj"
 	@echo "... Core/Src/gpio.i"
 	@echo "... Core/Src/gpio.s"
+	@echo "... Core/Src/i2c.obj"
+	@echo "... Core/Src/i2c.i"
+	@echo "... Core/Src/i2c.s"
 	@echo "... Core/Src/main.obj"
 	@echo "... Core/Src/main.i"
 	@echo "... Core/Src/main.s"
@@ -971,6 +1082,9 @@ help:
 	@echo "... Core/Src/system_stm32f4xx.obj"
 	@echo "... Core/Src/system_stm32f4xx.i"
 	@echo "... Core/Src/system_stm32f4xx.s"
+	@echo "... Core/Src/touch.obj"
+	@echo "... Core/Src/touch.i"
+	@echo "... Core/Src/touch.s"
 	@echo "... Core/Src/usart.obj"
 	@echo "... Core/Src/usart.i"
 	@echo "... Core/Src/usart.s"
@@ -1001,6 +1115,12 @@ help:
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.s"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s"
