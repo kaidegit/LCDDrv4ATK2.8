@@ -35,7 +35,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/stm32f4xx_it.c" "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/stm32f4xx_it.c.obj"
   "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/syscalls.c" "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/syscalls.c.obj"
   "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/system_stm32f4xx.c" "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/system_stm32f4xx.c.obj"
-  "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/touch.c" "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.obj"
   "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/usart.c" "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/usart.c.obj"
   "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
   "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
@@ -58,6 +57,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
   "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c" "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/testTFTforATKF4.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj"
   "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/LCD/lcd.c" "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/testTFTforATKF4.elf.dir/Hardwares/LCD/lcd.c.obj"
+  "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/touch/touch.c" "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/testTFTforATKF4.elf.dir/Hardwares/touch/touch.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

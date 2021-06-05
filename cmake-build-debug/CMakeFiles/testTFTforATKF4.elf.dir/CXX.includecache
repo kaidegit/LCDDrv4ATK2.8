@@ -116,10 +116,6 @@ stm32f4xx_hal_lptim.h
 stm32f4xx_hal_mmc.h
 ../Core/Inc/stm32f4xx_hal_mmc.h
 
-../Core/Inc/touch.h
-main.h
-../Core/Inc/main.h
-
 ../Core/Inc/usart.h
 main.h
 ../Core/Inc/main.h
@@ -355,10 +351,14 @@ stm32f4xx_hal.h
 /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/stm32f4xx_hal.h
 lcd.h
 /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/lcd.h
-touch.h
-/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/touch.h
+../../Hardwares/touch/touch.h
+/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/touch/touch.h
 usart.h
 /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/usart.h
 i2c.h
 /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/i2c.h
+
+/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/touch/touch.h
+main.h
+/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/touch/main.h
 

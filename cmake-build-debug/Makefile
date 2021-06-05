@@ -413,33 +413,6 @@ Core/Src/system_stm32f4xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/system_stm32f4xx.c.s
 .PHONY : Core/Src/system_stm32f4xx.c.s
 
-Core/Src/touch.obj: Core/Src/touch.c.obj
-
-.PHONY : Core/Src/touch.obj
-
-# target to build an object file
-Core/Src/touch.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.obj
-.PHONY : Core/Src/touch.c.obj
-
-Core/Src/touch.i: Core/Src/touch.c.i
-
-.PHONY : Core/Src/touch.i
-
-# target to preprocess a source file
-Core/Src/touch.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.i
-.PHONY : Core/Src/touch.c.i
-
-Core/Src/touch.s: Core/Src/touch.c.s
-
-.PHONY : Core/Src/touch.s
-
-# target to generate assembly for a file
-Core/Src/touch.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.s
-.PHONY : Core/Src/touch.c.s
-
 Core/Src/usart.obj: Core/Src/usart.c.obj
 
 .PHONY : Core/Src/usart.obj
@@ -1034,6 +1007,33 @@ Hardwares/LCD/lcd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Hardwares/LCD/lcd.c.s
 .PHONY : Hardwares/LCD/lcd.c.s
 
+Hardwares/touch/touch.obj: Hardwares/touch/touch.c.obj
+
+.PHONY : Hardwares/touch/touch.obj
+
+# target to build an object file
+Hardwares/touch/touch.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Hardwares/touch/touch.c.obj
+.PHONY : Hardwares/touch/touch.c.obj
+
+Hardwares/touch/touch.i: Hardwares/touch/touch.c.i
+
+.PHONY : Hardwares/touch/touch.i
+
+# target to preprocess a source file
+Hardwares/touch/touch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Hardwares/touch/touch.c.i
+.PHONY : Hardwares/touch/touch.c.i
+
+Hardwares/touch/touch.s: Hardwares/touch/touch.c.s
+
+.PHONY : Hardwares/touch/touch.s
+
+# target to generate assembly for a file
+Hardwares/touch/touch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testTFTforATKF4.elf.dir/build.make CMakeFiles/testTFTforATKF4.elf.dir/Hardwares/touch/touch.c.s
+.PHONY : Hardwares/touch/touch.c.s
+
 startup/startup_stm32f407xx.obj: startup/startup_stm32f407xx.s.obj
 
 .PHONY : startup/startup_stm32f407xx.obj
@@ -1082,9 +1082,6 @@ help:
 	@echo "... Core/Src/system_stm32f4xx.obj"
 	@echo "... Core/Src/system_stm32f4xx.i"
 	@echo "... Core/Src/system_stm32f4xx.s"
-	@echo "... Core/Src/touch.obj"
-	@echo "... Core/Src/touch.i"
-	@echo "... Core/Src/touch.s"
 	@echo "... Core/Src/usart.obj"
 	@echo "... Core/Src/usart.i"
 	@echo "... Core/Src/usart.s"
@@ -1151,6 +1148,9 @@ help:
 	@echo "... Hardwares/LCD/lcd.obj"
 	@echo "... Hardwares/LCD/lcd.i"
 	@echo "... Hardwares/LCD/lcd.s"
+	@echo "... Hardwares/touch/touch.obj"
+	@echo "... Hardwares/touch/touch.i"
+	@echo "... Hardwares/touch/touch.s"
 	@echo "... startup/startup_stm32f407xx.obj"
 .PHONY : help
 

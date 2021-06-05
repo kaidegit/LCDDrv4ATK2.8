@@ -7,7 +7,7 @@
 #include "main_cpp.h"
 #include "stm32f4xx_hal.h"
 #include "lcd.h"
-#include "touch.h"
+#include "../../Hardwares/touch/touch.h"
 #include "usart.h"
 #include "i2c.h"
 

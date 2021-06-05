@@ -119,9 +119,6 @@
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc/stm32f4xx_it.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc/touch.h">
-			<Option target="testTFTforATKF4.elf"/>
-		</Unit>
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc/usart.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
@@ -153,9 +150,6 @@
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/system_stm32f4xx.c">
-			<Option target="testTFTforATKF4.elf"/>
-		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/touch.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/usart.c">
@@ -369,6 +363,12 @@
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/LCD/lcd.h">
+			<Option target="testTFTforATKF4.elf"/>
+		</Unit>
+		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/touch/touch.c">
+			<Option target="testTFTforATKF4.elf"/>
+		</Unit>
+		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/touch/touch.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
 		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/STM32F407ZETx_FLASH.ld">
