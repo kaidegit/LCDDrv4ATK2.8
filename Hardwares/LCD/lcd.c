@@ -228,6 +228,81 @@ void LCD_ShowImage(uint16_t x_start, uint16_t y_start, uint16_t x_end, uint16_t 
     }
 }
 
+void LCD_DrawPoint(uint16_t x, uint16_t y) {
+    LCD_SetCursor(x, y);        //设置光标位置
+    LCD_WriteRAM_Prepare();    //开始写入GRAM
+    LCD->LCD_RAM = POINT_COLOR;
+}
+
+void LCD_DrawLine(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2) {
+    uint16_t t;
+    int xerr = 0, yerr = 0, delta_x, delta_y, distance;
+    int incx, incy, uRow, uCol;
+    delta_x = x2 - x1;
+    delta_y = y2 - y1;
+    uRow = x1;
+    uCol = y1;
+    if (delta_x > 0) {
+        incx = 1;
+    } else if (delta_x == 0) {
+        incx = 0;
+    } else {
+        incx = -1;
+        delta_x = -delta_x;
+    }
+    if (delta_y > 0) {
+        incy = 1;
+    } else if (delta_y == 0) {
+        incy = 0;
+    } else {
+        incy = -1;
+        delta_y = -delta_y;
+    }
+    if (delta_x > delta_y) {
+        distance = delta_x;
+    } else {
+        distance = delta_y;
+    }
+    for (t = 0; t <= distance + 1; t++) {
+        LCD_DrawPoint(uRow, uCol);
+        xerr += delta_x;
+        yerr += delta_y;
+        if (xerr > distance) {
+            xerr -= distance;
+            uRow += incx;
+        }
+        if (yerr > distance) {
+            yerr -= distance;
+            uCol += incy;
+        }
+    }
+}
+
+void LCD_Draw_Circle(uint16_t x0, uint16_t y0, uint8_t r) {
+    int a, b;
+    int di;
+    a = 0;
+    b = r;
+    di = 3 - (r << 1);
+    while (a <= b) {
+        LCD_DrawPoint(x0 + a, y0 - b);
+        LCD_DrawPoint(x0 + b, y0 - a);
+        LCD_DrawPoint(x0 + b, y0 + a);
+        LCD_DrawPoint(x0 + a, y0 + b);
+        LCD_DrawPoint(x0 - a, y0 + b);
+        LCD_DrawPoint(x0 - b, y0 + a);
+        LCD_DrawPoint(x0 - a, y0 - b);
+        LCD_DrawPoint(x0 - b, y0 - a);
+        a++;
+        if (di < 0) {
+            di += 4 * a + 6;
+        } else {
+            di += 10 + 4 * (a - b);
+            b--;
+        }
+    }
+}
+
 void LCD_Init() {
     HAL_Delay(50);
     LCD_WriteReg(0x0000, 0x0001);

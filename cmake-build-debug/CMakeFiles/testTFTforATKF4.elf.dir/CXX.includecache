@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../Core/Inc/i2c.h
+main.h
+../Core/Inc/main.h
+
 ../Core/Inc/main.h
 stm32f4xx_hal.h
 ../Core/Inc/stm32f4xx_hal.h
@@ -355,4 +359,6 @@ touch.h
 /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/touch.h
 usart.h
 /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/usart.h
+i2c.h
+/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/i2c.h
 

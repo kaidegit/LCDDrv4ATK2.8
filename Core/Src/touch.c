@@ -4,10 +4,17 @@
 
 #include <lcd.h>
 #include <stdlib.h>
+#include <math.h>
 #include "touch.h"
 #include "main.h"
+#include "i2c.h"
 
 struct position pos;
+
+float xfac, yfac;
+int16_t xoff, yoff;
+uint8_t touchtype;
+uint8_t sta;
 
 const uint8_t CMD_RDX = 0XD0;
 const uint8_t CMD_RDY = 0X90;
@@ -181,13 +188,13 @@ uint8_t TP_Scan(uint8_t tp) {
         if (tp) {
             TP_Read_XY_Twice();
         } else if (TP_Read_XY_Twice()) {
-//            tp_dev.x[0] = tp_dev.xfac * tp_dev.x[0] + tp_dev.xoff;
-//            tp_dev.y[0] = tp_dev.yfac * tp_dev.y[0] + tp_dev.yoff;
+            pos.x = xfac * pos.x + xoff;
+            pos.y = yfac * pos.y + yoff;
         }
-//        if ((tp_dev.sta & TP_PRES_DOWN) == 0) {
-//            tp_dev.sta = TP_PRES_DOWN | TP_CATH_PRES;
-//            tp_dev.x[4] = tp_dev.x[0];
-//            tp_dev.y[4] = tp_dev.y[0];
+//        if ((sta & TP_PRES_DOWN) == 0) {
+//            sta = TP_PRES_DOWN | TP_CATH_PRES;
+//            x[4] = x[0];
+//            y[4] = y[0];
 //    }
     } else {
 //        if (tp_dev.sta & TP_PRES_DOWN)//Ö®Ç°ÊÇ±»°´ÏÂµÄ
@@ -195,25 +202,214 @@ uint8_t TP_Scan(uint8_t tp) {
 //            tp_dev.sta &= ~(1 << 7);//±ê¼Ç°´¼üËÉ¿ª
 //        } else//Ö®Ç°¾ÍÃ»ÓÐ±»°´ÏÂ
 //        {
-//            tp_dev.x[4] = 0;
-//            tp_dev.y[4] = 0;
-//            tp_dev.x[0] = 0xffff;
-//            tp_dev.y[0] = 0xffff;
+//            x[4] = 0;
+//            y[4] = 0;
+//            x[0] = 0xffff;
+//            y[0] = 0xffff;
 //        }
     }
 //    return tp_dev.sta & TP_PRES_DOWN;
 }
 
+#define EEPROM_ADDR 0xA0
+#define SAVE_ADDR_BASE 0x28
+
+uint8_t TP_Get_Adjdata(void) {
+    uint8_t temp8;
+    HAL_I2C_Mem_Read(&hi2c1, EEPROM_ADDR, SAVE_ADDR_BASE + 13, I2C_MEMADD_SIZE_8BIT, &temp8, 1, 0xff);
+    if (temp8 == 0X0A) {
+        int32_t temp32;
+        HAL_I2C_Mem_Read(&hi2c1, EEPROM_ADDR, SAVE_ADDR_BASE, I2C_MEMADD_SIZE_8BIT, (uint8_t *) &temp32, 4, 0xff);
+        xfac = temp32 / 100000000.0;
+        HAL_I2C_Mem_Read(&hi2c1, EEPROM_ADDR, SAVE_ADDR_BASE + 4, I2C_MEMADD_SIZE_8BIT, (uint8_t *) &temp32, 4, 0xff);
+        yfac = temp32 / 100000000.0;
+        int16_t temp16;
+        HAL_I2C_Mem_Read(&hi2c1, EEPROM_ADDR, SAVE_ADDR_BASE + 8, I2C_MEMADD_SIZE_8BIT, (uint8_t *) &temp16, 2, 0xff);
+        xoff = temp16;
+        HAL_I2C_Mem_Read(&hi2c1, EEPROM_ADDR, SAVE_ADDR_BASE + 10, I2C_MEMADD_SIZE_8BIT, (uint8_t *) &temp16, 2, 0xff);
+        yoff = temp16;
+        HAL_I2C_Mem_Read(&hi2c1, EEPROM_ADDR, SAVE_ADDR_BASE + 12, I2C_MEMADD_SIZE_8BIT, &temp8, 1, 0xff);
+        touchtype = temp8;
+        return 1;
+    }
+    return 0;
+}
+
+void TP_Save_Adjdata(void) {
+    int32_t temp32;
+    temp32 = xfac * 100000000;
+    HAL_I2C_Mem_Write(&hi2c1, EEPROM_ADDR, SAVE_ADDR_BASE, I2C_MEMADD_SIZE_8BIT, (uint8_t *) &temp32, 4, 0xff);
+    temp32 = yfac * 100000000;
+    HAL_I2C_Mem_Write(&hi2c1, EEPROM_ADDR, SAVE_ADDR_BASE + 4, I2C_MEMADD_SIZE_8BIT, (uint8_t *) &temp32, 4, 0xff);
+    HAL_I2C_Mem_Write(&hi2c1, EEPROM_ADDR, SAVE_ADDR_BASE + 8, I2C_MEMADD_SIZE_8BIT, (uint8_t *) &xoff, 2, 0xff);
+    HAL_I2C_Mem_Write(&hi2c1, EEPROM_ADDR, SAVE_ADDR_BASE + 10, I2C_MEMADD_SIZE_8BIT, (uint8_t *) &yoff, 2, 0xff);
+    HAL_I2C_Mem_Write(&hi2c1, EEPROM_ADDR, SAVE_ADDR_BASE + 12, I2C_MEMADD_SIZE_8BIT, (uint8_t *) &touchtype, 1, 0xff);
+    uint8_t temp8 = 0X0A;
+    HAL_I2C_Mem_Write(&hi2c1, EEPROM_ADDR, SAVE_ADDR_BASE + 13, I2C_MEMADD_SIZE_8BIT, (uint8_t *) &temp8, 1, 0xff);
+}
+
+void TP_Drow_Touch_Point(uint16_t x, uint16_t y, uint16_t color) {
+    POINT_COLOR = color;
+    LCD_DrawLine(x - 12, y, x + 13, y);
+    LCD_DrawLine(x, y - 12, x, y + 13);
+    LCD_DrawPoint(x + 1, y + 1);
+    LCD_DrawPoint(x - 1, y + 1);
+    LCD_DrawPoint(x + 1, y - 1);
+    LCD_DrawPoint(x - 1, y - 1);
+    LCD_Draw_Circle(x, y, 6);
+}
+
+#define TP_PRES_DOWN 0x80
+#define TP_CATH_PRES 0x40
+
+void TP_Adjust(void) {
+    uint16_t pos_temp[4][2];
+    uint8_t cnt = 0;
+    uint16_t d1, d2;
+    uint32_t tem1, tem2;
+    double fac;
+    uint16_t outtime = 0;
+    cnt = 0;
+    POINT_COLOR = BLUE;
+    BACK_COLOR = WHITE;
+    LCD_Clear(WHITE);
+    POINT_COLOR = RED;
+    LCD_Clear(WHITE);
+    POINT_COLOR = BLACK;
+    TP_Drow_Touch_Point(20, 20, RED);
+    sta = 0;
+    xfac = 0;
+    while (1) {
+        TP_Scan(1);
+        if ((sta & 0xc0) == TP_CATH_PRES) {
+            outtime = 0;
+            sta &= ~(1 << 6);
+
+            pos_temp[cnt][0] = pos.x;
+            pos_temp[cnt][1] = pos.y;
+            cnt++;
+            switch (cnt) {
+                case 1:
+                    TP_Drow_Touch_Point(20, 20, WHITE);
+                    TP_Drow_Touch_Point(lcddev.width - 20, 20, RED);
+                    break;
+                case 2:
+                    TP_Drow_Touch_Point(lcddev.width - 20, 20, WHITE);
+                    TP_Drow_Touch_Point(20, lcddev.height - 20, RED);
+                    break;
+                case 3:
+                    TP_Drow_Touch_Point(20, lcddev.height - 20, WHITE);
+                    TP_Drow_Touch_Point(lcddev.width - 20, lcddev.height - 20, RED);
+                    break;
+                case 4:
+
+                    tem1 = abs(pos_temp[0][0] - pos_temp[1][0]);
+                    tem2 = abs(pos_temp[0][1] - pos_temp[1][1]);
+                    tem1 *= tem1;
+                    tem2 *= tem2;
+                    d1 = sqrt(tem1 + tem2);
+
+                    tem1 = abs(pos_temp[2][0] - pos_temp[3][0]);
+                    tem2 = abs(pos_temp[2][1] - pos_temp[3][1]);
+                    tem1 *= tem1;
+                    tem2 *= tem2;
+                    d2 = sqrt(tem1 + tem2);
+                    fac = (float) d1 / d2;
+                    if (fac < 0.95 || fac > 1.05 || d1 == 0 || d2 == 0) {
+                        cnt = 0;
+                        TP_Drow_Touch_Point(lcddev.width - 20, lcddev.height - 20, WHITE);
+                        TP_Drow_Touch_Point(20, 20, RED);
+//                        TP_Adj_Info_Show(pos_temp[0][0], pos_temp[0][1], pos_temp[1][0], pos_temp[1][1], pos_temp[2][0],
+//                                         pos_temp[2][1], pos_temp[3][0], pos_temp[3][1], fac * 100);
+                        continue;
+                    }
+                    tem1 = abs(pos_temp[0][0] - pos_temp[2][0]);
+                    tem2 = abs(pos_temp[0][1] - pos_temp[2][1]);
+                    tem1 *= tem1;
+                    tem2 *= tem2;
+                    d1 = sqrt(tem1 + tem2);
+
+                    tem1 = abs(pos_temp[1][0] - pos_temp[3][0]);
+                    tem2 = abs(pos_temp[1][1] - pos_temp[3][1]);
+                    tem1 *= tem1;
+                    tem2 *= tem2;
+                    d2 = sqrt(tem1 + tem2);
+                    fac = (float) d1 / d2;
+                    if (fac < 0.95 || fac > 1.05) {
+                        cnt = 0;
+                        TP_Drow_Touch_Point(lcddev.width - 20, lcddev.height - 20, WHITE);
+                        TP_Drow_Touch_Point(20, 20, RED);
+//                        TP_Adj_Info_Show(pos_temp[0][0], pos_temp[0][1], pos_temp[1][0], pos_temp[1][1], pos_temp[2][0],
+//                                         pos_temp[2][1], pos_temp[3][0], pos_temp[3][1], fac * 100);//ÏÔÊ¾Êý¾Ý
+                        continue;
+                    }
+
+
+                    tem1 = abs(pos_temp[1][0] - pos_temp[2][0]);
+                    tem2 = abs(pos_temp[1][1] - pos_temp[2][1]);
+                    tem1 *= tem1;
+                    tem2 *= tem2;
+                    d1 = sqrt(tem1 + tem2);
+
+                    tem1 = abs(pos_temp[0][0] - pos_temp[3][0]);
+                    tem2 = abs(pos_temp[0][1] - pos_temp[3][1]);
+                    tem1 *= tem1;
+                    tem2 *= tem2;
+                    d2 = sqrt(tem1 + tem2);
+                    fac = (float) d1 / d2;
+                    if (fac < 0.95 || fac > 1.05) {
+                        cnt = 0;
+                        TP_Drow_Touch_Point(lcddev.width - 20, lcddev.height - 20, WHITE);
+                        TP_Drow_Touch_Point(20, 20, RED);
+//                        TP_Adj_Info_Show(pos_temp[0][0], pos_temp[0][1], pos_temp[1][0], pos_temp[1][1], pos_temp[2][0],
+//                                         pos_temp[2][1], pos_temp[3][0], pos_temp[3][1], fac * 100);
+                        continue;
+                    }
+
+                    xfac = (float) (lcddev.width - 40) / (pos_temp[1][0] - pos_temp[0][0]);
+                    xoff = (lcddev.width - xfac * (pos_temp[1][0] + pos_temp[0][0])) / 2;
+
+                    yfac = (float) (lcddev.height - 40) / (pos_temp[2][1] - pos_temp[0][1]);
+                    yoff = (lcddev.height - yfac * (pos_temp[2][1] + pos_temp[0][1])) / 2;
+                    if (abs(xfac) > 2 || abs(yfac) > 2)//´¥ÆÁºÍÔ¤ÉèµÄÏà·´ÁË.
+                    {
+                        cnt = 0;
+                        TP_Drow_Touch_Point(lcddev.width - 20, lcddev.height - 20, WHITE);
+                        TP_Drow_Touch_Point(20, 20, RED);
+//                        LCD_ShowString(40, 26, lcddev.width, lcddev.height, 16, "TP Need readjust!");
+                        touchtype = !touchtype;
+                        continue;
+                    }
+                    POINT_COLOR = BLUE;
+                    LCD_Clear(WHITE);//ÇåÆÁ
+//                    LCD_ShowString(35, 110, lcddev.width, lcddev.height, 16, "Touch Screen Adjust OK!");
+                    HAL_Delay(1000);
+                    TP_Save_Adjdata();
+                    LCD_Clear(WHITE);//ÇåÆÁ   
+                    return;//Ð£ÕýÍê³É				 
+            }
+        }
+        HAL_Delay(10);
+        outtime++;
+        if (outtime > 1000) {
+            TP_Get_Adjdata();
+            break;
+        }
+    }
+}
+
+
 uint8_t TP_Init(void) {
     TP_Read_XY();
-//    AT24CXX_Init();
-//    if (TP_Get_Adjdata())return 0;
-//    else {
-//        LCD_Clear(WHITE);
-//        TP_Adjust();
-//        TP_Save_Adjdata();
-//    }
-//    TP_Get_Adjdata();
+
+    if (TP_Get_Adjdata()) {
+        return 0;
+    } else {
+        LCD_Clear(WHITE);
+        TP_Adjust();
+        TP_Save_Adjdata();
+    }
+    TP_Get_Adjdata();
     return 1;
 }
 

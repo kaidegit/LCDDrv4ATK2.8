@@ -282,6 +282,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/system_stm32f4xx.c.obj: ../Drivers/S
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/system_stm32f4xx.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/system_stm32f4xx.c.obj: ../Core/Src/system_stm32f4xx.c
 
+CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.obj: ../Core/Inc/i2c.h
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.obj: ../Core/Inc/main.h
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.obj: ../Core/Inc/stm32f4xx_hal_conf.h
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/touch.c.obj: ../Core/Inc/touch.h
@@ -1142,6 +1143,7 @@ CMakeFiles/testTFTforATKF4.elf.dir/Hardwares/LCD/lcd.c.obj: ../Drivers/STM32F4xx
 CMakeFiles/testTFTforATKF4.elf.dir/Hardwares/LCD/lcd.c.obj: ../Hardwares/LCD/lcd.c
 CMakeFiles/testTFTforATKF4.elf.dir/Hardwares/LCD/lcd.c.obj: ../Hardwares/LCD/lcd.h
 
+CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main_cpp.cpp.obj: ../Core/Inc/i2c.h
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main_cpp.cpp.obj: ../Core/Inc/main.h
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main_cpp.cpp.obj: ../Core/Inc/main_cpp.h
 CMakeFiles/testTFTforATKF4.elf.dir/Core/Src/main_cpp.cpp.obj: ../Core/Inc/stm32f4xx_hal_conf.h
