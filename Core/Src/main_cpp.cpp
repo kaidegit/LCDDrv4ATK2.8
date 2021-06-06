@@ -46,8 +46,8 @@ void main_cpp() {
 //        HAL_Delay(500);
 //        LCD_Color_Fill(100,100,200,200, (uint16_t)0xFFE0);
 //        HAL_Delay(1000);
-//        LCD_ShowImage(10,10,130,130,(uint16_t *)touxiang_map);
-//        HAL_Delay(1000);
+        LCD_ShowImage(10,10,129,129,(uint16_t *)touxiang_map);
+        HAL_Delay(1000);
         // Touch Test
         x = pos.x;
         y = pos.y;
