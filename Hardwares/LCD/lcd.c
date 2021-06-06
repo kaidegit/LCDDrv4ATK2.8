@@ -308,13 +308,16 @@ void LCD_Init() {
     LCD_WriteReg(0x0000, 0x0001);
     HAL_Delay(50);
 
-    lcddev.id = LCD_ReadReg(0x0000);
-    LCD_WR_REG(0XD3);
+//    lcddev.id = LCD_ReadReg(0x0000);
+    LCD_WR_REG(0X04);
     lcddev.id = LCD_RD_DATA();
     lcddev.id = LCD_RD_DATA();
     lcddev.id = LCD_RD_DATA();
     lcddev.id <<= 8;
     lcddev.id |= LCD_RD_DATA();
+    char ch[30];
+    sprintf(ch,"lcd:%d", lcddev.id);
+    HAL_UART_Transmit(&huart1, (uint8_t *) &ch, strlen(ch), 0xff);
 
     if (lcddev.id == 0x9341) {
         MX_FSMC_Init_Fast();
