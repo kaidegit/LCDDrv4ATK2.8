@@ -50,7 +50,7 @@ enum COLOR {
 
 #define LCD_BASE        ((uint32_t)(0x6C000000 | 0x0000007E))
 #define LCD             ((LCD_TypeDef *) LCD_BASE)
-#define DFT_SCAN_DIR  L2R_U2D
+
 
 void LCD_WR_REG(__IO uint16_t regval);
 
