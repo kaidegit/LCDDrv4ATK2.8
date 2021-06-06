@@ -8,50 +8,50 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug"/>
+				<Option working_dir="/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug"/>
+				<Option working_dir="/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug"/>
+				<Option working_dir="/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="testTFTforATKF4.elf">
-				<Option output="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/testTFTforATKF4.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug"/>
+				<Option output="/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/testTFTforATKF4.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
-					<Add directory="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc"/>
-					<Add directory="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc"/>
-					<Add directory="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
-					<Add directory="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include"/>
-					<Add directory="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/LCD"/>
+					<Add directory="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Inc"/>
+					<Add directory="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Hardwares/LCD"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
 					<Add directory="/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
@@ -61,27 +61,27 @@
 					<Add directory="/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 testTFTforATKF4.elf"/>
-					<CompileFile command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 testTFTforATKF4.elf"/>
+					<CompileFile command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="testTFTforATKF4.elf/fast">
-				<Option output="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/testTFTforATKF4.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug"/>
+				<Option output="/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/testTFTforATKF4.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
-					<Add directory="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc"/>
-					<Add directory="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc"/>
-					<Add directory="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
-					<Add directory="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include"/>
-					<Add directory="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/LCD"/>
+					<Add directory="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Inc"/>
+					<Add directory="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Hardwares/LCD"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
 					<Add directory="/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
@@ -91,293 +91,296 @@
 					<Add directory="/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 testTFTforATKF4.elf/fast"/>
-					<CompileFile command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 testTFTforATKF4.elf/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j6 -f &quot;/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc/fsmc.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/.DS_Store">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc/gpio.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Inc/fsmc.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc/i2c.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Inc/gpio.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc/main.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Inc/i2c.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc/main_cpp.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Inc/main.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc/stm32f4xx_hal_conf.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Inc/main_cpp.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc/stm32f4xx_it.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Inc/stm32f4xx_hal_conf.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Inc/usart.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Inc/stm32f4xx_it.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/fsmc.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Inc/usart.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/gpio.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Src/fsmc.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/i2c.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Src/gpio.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/main.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Src/i2c.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/main_cpp.cpp">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Src/main.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/pic.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Src/main_cpp.cpp">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/stm32f4xx_hal_msp.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Src/stm32f4xx_hal_msp.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/stm32f4xx_it.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Src/stm32f4xx_it.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/syscalls.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Src/syscalls.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/system_stm32f4xx.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Src/system_stm32f4xx.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/usart.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Core/Src/usart.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/.DS_Store">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/cmsis_armcc.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/cmsis_armcc.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/cmsis_armclang.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/cmsis_armclang.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/cmsis_compiler.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/cmsis_compiler.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/cmsis_gcc.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/cmsis_gcc.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/cmsis_iccarm.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/cmsis_iccarm.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/cmsis_version.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/cmsis_version.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/core_armv8mbl.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/core_armv8mbl.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/core_armv8mml.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/core_armv8mml.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/core_cm0.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/core_cm0.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/core_cm0plus.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/core_cm0plus.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/core_cm1.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/core_cm1.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/core_cm23.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/core_cm23.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/core_cm3.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/core_cm3.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/core_cm33.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/core_cm33.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/core_cm4.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/core_cm4.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/core_cm7.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/core_cm7.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/core_sc000.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/core_sc000.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/core_sc300.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/core_sc300.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/mpu_armv7.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/mpu_armv7.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/mpu_armv8.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/mpu_armv8.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/CMSIS/Include/tz_context.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/CMSIS/Include/tz_context.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Hardwares/.DS_Store">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/LCD/lcd.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Hardwares/LCD/lcd.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/LCD/lcd.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Hardwares/LCD/lcd.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/touch/touch.c">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Hardwares/LCD/pic.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/touch/touch.h">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Hardwares/touch/touch.c">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/STM32F407ZETx_FLASH.ld">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/Hardwares/touch/touch.h">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/startup/startup_stm32f407xx.s">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/STM32F407ZETx_FLASH.ld">
 			<Option target="testTFTforATKF4.elf"/>
 		</Unit>
-		<Unit filename="/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/CMakeLists.txt">
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/startup/startup_stm32f407xx.s">
+			<Option target="testTFTforATKF4.elf"/>
+		</Unit>
+		<Unit filename="/Users/kai/CLionProjects/LCDDrv4ATK2.8/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

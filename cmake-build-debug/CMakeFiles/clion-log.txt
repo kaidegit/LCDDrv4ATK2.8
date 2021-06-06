@@ -1,5 +1,5 @@
-"/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341
+"/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/kai/CLionProjects/LCDDrv4ATK2.8
 -- Minimal optimization, debug info included
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug
+-- Build files have been written to: /Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug

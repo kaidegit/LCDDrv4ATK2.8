@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../Core/Inc/i2c.h
+../Core/Inc/fsmc.h
 main.h
 ../Core/Inc/main.h
 
@@ -113,6 +113,10 @@ stm32f4xx_hal_lptim.h
 ../Core/Inc/stm32f4xx_hal_lptim.h
 stm32f4xx_hal_mmc.h
 ../Core/Inc/stm32f4xx_hal_mmc.h
+
+../Core/Inc/usart.h
+main.h
+../Core/Inc/main.h
 
 ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 core_cm4.h
@@ -330,37 +334,19 @@ stm32f4xx_hal_def.h
 stm32f4xx_hal_def.h
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 
-../Hardwares/LCD/lcd.h
-stm32f4xx_hal.h
-../Hardwares/LCD/stm32f4xx_hal.h
-
-/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/i2c.c
-i2c.h
-/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Core/Src/i2c.h
-
-/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
-stm32f4xx_hal.h
-/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.h
-
-/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
-stm32f4xx_hal.h
-/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.h
-
-/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/touch/touch.c
+/Users/kai/CLionProjects/LCDDrv4ATK2.8/Hardwares/LCD/lcd.c
 lcd.h
--
-stdlib.h
--
-math.h
--
-touch.h
-/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/touch/touch.h
-main.h
-/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/touch/main.h
-i2c.h
-/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/touch/i2c.h
+/Users/kai/CLionProjects/LCDDrv4ATK2.8/Hardwares/LCD/lcd.h
+usart.h
+/Users/kai/CLionProjects/LCDDrv4ATK2.8/Hardwares/LCD/usart.h
+stdio.h
+/Users/kai/CLionProjects/LCDDrv4ATK2.8/Hardwares/LCD/stdio.h
+string.h
+/Users/kai/CLionProjects/LCDDrv4ATK2.8/Hardwares/LCD/string.h
+fsmc.h
+/Users/kai/CLionProjects/LCDDrv4ATK2.8/Hardwares/LCD/fsmc.h
 
-/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/touch/touch.h
-main.h
-/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/Hardwares/touch/main.h
+/Users/kai/CLionProjects/LCDDrv4ATK2.8/Hardwares/LCD/lcd.h
+stm32f4xx_hal.h
+/Users/kai/CLionProjects/LCDDrv4ATK2.8/Hardwares/LCD/stm32f4xx_hal.h
 

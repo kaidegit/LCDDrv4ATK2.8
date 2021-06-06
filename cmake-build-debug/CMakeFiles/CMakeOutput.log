@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
 
-The C compiler identification is GNU, found in "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.o"
+The C compiler identification is GNU, found in "/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.o"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/local/bin/arm-none-eabi-g++ 
@@ -24,7 +24,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
 
-The CXX compiler identification is GNU, found in "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.o"
+The CXX compiler identification is GNU, found in "/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.o"
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 arm-none-eabi-gcc (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599]
@@ -32,37 +32,21 @@ Copyright (C) 2019 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-Determining if the C compiler works passed with the following output:
-Change Dir: /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/local/bin/gmake cmTC_7a40d/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_7a40d.dir/build.make CMakeFiles/cmTC_7a40d.dir/build
-gmake[1]: Entering directory '/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7a40d.dir/testCCompiler.c.obj
-/usr/local/bin/arm-none-eabi-gcc    -o CMakeFiles/cmTC_7a40d.dir/testCCompiler.c.obj   -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C static library libcmTC_7a40d.a
-"/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P CMakeFiles/cmTC_7a40d.dir/cmake_clean_target.cmake
-"/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_7a40d.dir/link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_7a40d.a  CMakeFiles/cmTC_7a40d.dir/testCCompiler.c.obj
-/usr/local/bin/arm-none-eabi-ranlib libcmTC_7a40d.a
-gmake[1]: Leaving directory '/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp'
-
-
-
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/local/bin/gmake cmTC_0750b/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_0750b.dir/build.make CMakeFiles/cmTC_0750b.dir/build
-gmake[1]: Entering directory '/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0750b.dir/CMakeCCompilerABI.c.obj
-/usr/local/bin/arm-none-eabi-gcc   -v -o CMakeFiles/cmTC_0750b.dir/CMakeCCompilerABI.c.obj   -c "/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCCompilerABI.c"
+Run Build Command(s):/usr/local/bin/gmake cmTC_886b9/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_886b9.dir/build.make CMakeFiles/cmTC_886b9.dir/build
+gmake[1]: Entering directory '/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_886b9.dir/CMakeCCompilerABI.c.obj
+/usr/local/bin/arm-none-eabi-gcc   -v -o CMakeFiles/cmTC_886b9.dir/CMakeCCompilerABI.c.obj -c "/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeCCompilerABI.c"
 Using built-in specs.
 COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
 Target: arm-none-eabi
 Configured with: /tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native --libexecdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/lib --infodir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile
 Thread model: single
 gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0750b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1 -quiet -v -iprefix /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/ -isysroot /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_0750b.dir/CMakeCCompilerABI.c.obj -version -o /var/folders/y9/x_bsbhls1m3c3dcxdt2hddxc0000gn/T//cc60Eei3.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_886b9.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1 -quiet -v -iprefix /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/ -isysroot /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_886b9.dir/CMakeCCompilerABI.c.obj -version -o /var/folders/y9/x_bsbhls1m3c3dcxdt2hddxc0000gn/T//cc00XSPy.s
 GNU C17 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
 	compiled by GNU C version 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
@@ -84,18 +68,18 @@ GNU C17 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: db2377360e540a6b416884f1a3d4ba85
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0750b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_0750b.dir/CMakeCCompilerABI.c.obj /var/folders/y9/x_bsbhls1m3c3dcxdt2hddxc0000gn/T//cc60Eei3.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_886b9.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_886b9.dir/CMakeCCompilerABI.c.obj /var/folders/y9/x_bsbhls1m3c3dcxdt2hddxc0000gn/T//cc00XSPy.s
 GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 2.33.1.20191025
 COMPILER_PATH=/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0750b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
-Linking C static library libcmTC_0750b.a
-"/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P CMakeFiles/cmTC_0750b.dir/cmake_clean_target.cmake
-"/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_0750b.dir/link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_0750b.a  CMakeFiles/cmTC_0750b.dir/CMakeCCompilerABI.c.obj
-/usr/local/bin/arm-none-eabi-ranlib libcmTC_0750b.a
-gmake[1]: Leaving directory '/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_886b9.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C static library libcmTC_886b9.a
+"/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P CMakeFiles/cmTC_886b9.dir/cmake_clean_target.cmake
+"/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_886b9.dir/link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_886b9.a CMakeFiles/cmTC_886b9.dir/CMakeCCompilerABI.c.obj
+/usr/local/bin/arm-none-eabi-ranlib libcmTC_886b9.a
+gmake[1]: Leaving directory '/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -116,20 +100,20 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/local/bin/gmake cmTC_0750b/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_0750b.dir/build.make CMakeFiles/cmTC_0750b.dir/build]
-  ignore line: [gmake[1]: Entering directory '/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_0750b.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/usr/local/bin/arm-none-eabi-gcc   -v -o CMakeFiles/cmTC_0750b.dir/CMakeCCompilerABI.c.obj   -c "/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Run Build Command(s):/usr/local/bin/gmake cmTC_886b9/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_886b9.dir/build.make CMakeFiles/cmTC_886b9.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_886b9.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/local/bin/arm-none-eabi-gcc   -v -o CMakeFiles/cmTC_886b9.dir/CMakeCCompilerABI.c.obj -c "/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeCCompilerABI.c"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc]
   ignore line: [Target: arm-none-eabi]
   ignore line: [Configured with: /tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native --libexecdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/lib --infodir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile]
   ignore line: [Thread model: single]
   ignore line: [gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0750b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [ /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1 -quiet -v -iprefix /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/ -isysroot /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_0750b.dir/CMakeCCompilerABI.c.obj -version -o /var/folders/y9/x_bsbhls1m3c3dcxdt2hddxc0000gn/T//cc60Eei3.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_886b9.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1 -quiet -v -iprefix /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/ -isysroot /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_886b9.dir/CMakeCCompilerABI.c.obj -version -o /var/folders/y9/x_bsbhls1m3c3dcxdt2hddxc0000gn/T//cc00XSPy.s]
   ignore line: [GNU C17 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
   ignore line: []
@@ -151,18 +135,18 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: db2377360e540a6b416884f1a3d4ba85]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0750b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [ /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_0750b.dir/CMakeCCompilerABI.c.obj /var/folders/y9/x_bsbhls1m3c3dcxdt2hddxc0000gn/T//cc60Eei3.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_886b9.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_886b9.dir/CMakeCCompilerABI.c.obj /var/folders/y9/x_bsbhls1m3c3dcxdt2hddxc0000gn/T//cc00XSPy.s]
   ignore line: [GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 2.33.1.20191025]
   ignore line: [COMPILER_PATH=/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0750b.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [Linking C static library libcmTC_0750b.a]
-  ignore line: ["/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P CMakeFiles/cmTC_0750b.dir/cmake_clean_target.cmake]
-  ignore line: ["/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_0750b.dir/link.txt --verbose=1]
-  ignore line: [arm-none-eabi-ar qc libcmTC_0750b.a  CMakeFiles/cmTC_0750b.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/usr/local/bin/arm-none-eabi-ranlib libcmTC_0750b.a]
-  ignore line: [gmake[1]: Leaving directory '/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_886b9.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [Linking C static library libcmTC_886b9.a]
+  ignore line: ["/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P CMakeFiles/cmTC_886b9.dir/cmake_clean_target.cmake]
+  ignore line: ["/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_886b9.dir/link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_886b9.a CMakeFiles/cmTC_886b9.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/local/bin/arm-none-eabi-ranlib libcmTC_886b9.a]
+  ignore line: [gmake[1]: Leaving directory '/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []
   implicit libs: []
@@ -170,37 +154,21 @@ Parsed C implicit link information from above output:
   implicit fwks: []
 
 
-Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/local/bin/gmake cmTC_3c809/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_3c809.dir/build.make CMakeFiles/cmTC_3c809.dir/build
-gmake[1]: Entering directory '/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3c809.dir/testCXXCompiler.cxx.obj
-/usr/local/bin/arm-none-eabi-g++     -o CMakeFiles/cmTC_3c809.dir/testCXXCompiler.cxx.obj -c /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX static library libcmTC_3c809.a
-"/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P CMakeFiles/cmTC_3c809.dir/cmake_clean_target.cmake
-"/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_3c809.dir/link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_3c809.a  CMakeFiles/cmTC_3c809.dir/testCXXCompiler.cxx.obj
-/usr/local/bin/arm-none-eabi-ranlib libcmTC_3c809.a
-gmake[1]: Leaving directory '/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp'
-
-
-
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/local/bin/gmake cmTC_e3db4/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_e3db4.dir/build.make CMakeFiles/cmTC_e3db4.dir/build
-gmake[1]: Entering directory '/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e3db4.dir/CMakeCXXCompilerABI.cpp.obj
-/usr/local/bin/arm-none-eabi-g++    -v -o CMakeFiles/cmTC_e3db4.dir/CMakeCXXCompilerABI.cpp.obj -c "/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
+Run Build Command(s):/usr/local/bin/gmake cmTC_a8186/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_a8186.dir/build.make CMakeFiles/cmTC_a8186.dir/build
+gmake[1]: Entering directory '/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a8186.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/local/bin/arm-none-eabi-g++   -v -o CMakeFiles/cmTC_a8186.dir/CMakeCXXCompilerABI.cpp.obj -c "/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp"
 Using built-in specs.
 COLLECT_GCC=/usr/local/bin/arm-none-eabi-g++
 Target: arm-none-eabi
 Configured with: /tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native --libexecdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/lib --infodir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile
 Thread model: single
 gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e3db4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1plus -quiet -v -iprefix /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/ -isysroot /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_e3db4.dir/CMakeCXXCompilerABI.cpp.obj -version -o /var/folders/y9/x_bsbhls1m3c3dcxdt2hddxc0000gn/T//cc7uCqL6.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a8186.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1plus -quiet -v -iprefix /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/ -isysroot /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_a8186.dir/CMakeCXXCompilerABI.cpp.obj -version -o /var/folders/y9/x_bsbhls1m3c3dcxdt2hddxc0000gn/T//ccALo4l9.s
 GNU C++14 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
 	compiled by GNU C version 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
@@ -228,18 +196,18 @@ GNU C++14 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: e337e236c618b3596b0b5fb0dd7f5733
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e3db4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_e3db4.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/y9/x_bsbhls1m3c3dcxdt2hddxc0000gn/T//cc7uCqL6.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a8186.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a8186.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/y9/x_bsbhls1m3c3dcxdt2hddxc0000gn/T//ccALo4l9.s
 GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 2.33.1.20191025
 COMPILER_PATH=/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e3db4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
-Linking CXX static library libcmTC_e3db4.a
-"/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P CMakeFiles/cmTC_e3db4.dir/cmake_clean_target.cmake
-"/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_e3db4.dir/link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_e3db4.a  CMakeFiles/cmTC_e3db4.dir/CMakeCXXCompilerABI.cpp.obj
-/usr/local/bin/arm-none-eabi-ranlib libcmTC_e3db4.a
-gmake[1]: Leaving directory '/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a8186.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking CXX static library libcmTC_a8186.a
+"/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P CMakeFiles/cmTC_a8186.dir/cmake_clean_target.cmake
+"/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a8186.dir/link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_a8186.a CMakeFiles/cmTC_a8186.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/local/bin/arm-none-eabi-ranlib libcmTC_a8186.a
+gmake[1]: Leaving directory '/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -266,20 +234,20 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/local/bin/gmake cmTC_e3db4/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_e3db4.dir/build.make CMakeFiles/cmTC_e3db4.dir/build]
-  ignore line: [gmake[1]: Entering directory '/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_e3db4.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/usr/local/bin/arm-none-eabi-g++    -v -o CMakeFiles/cmTC_e3db4.dir/CMakeCXXCompilerABI.cpp.obj -c "/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Run Build Command(s):/usr/local/bin/gmake cmTC_a8186/fast && /usr/local/bin/gmake  -f CMakeFiles/cmTC_a8186.dir/build.make CMakeFiles/cmTC_a8186.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a8186.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/local/bin/arm-none-eabi-g++   -v -o CMakeFiles/cmTC_a8186.dir/CMakeCXXCompilerABI.cpp.obj -c "/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/local/bin/arm-none-eabi-g++]
   ignore line: [Target: arm-none-eabi]
   ignore line: [Configured with: /tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native --libexecdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/lib --infodir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile]
   ignore line: [Thread model: single]
   ignore line: [gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e3db4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [ /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1plus -quiet -v -iprefix /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/ -isysroot /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_e3db4.dir/CMakeCXXCompilerABI.cpp.obj -version -o /var/folders/y9/x_bsbhls1m3c3dcxdt2hddxc0000gn/T//cc7uCqL6.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a8186.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1plus -quiet -v -iprefix /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/ -isysroot /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles/cmTC_a8186.dir/CMakeCXXCompilerABI.cpp.obj -version -o /var/folders/y9/x_bsbhls1m3c3dcxdt2hddxc0000gn/T//ccALo4l9.s]
   ignore line: [GNU C++14 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
   ignore line: []
@@ -307,18 +275,18 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: e337e236c618b3596b0b5fb0dd7f5733]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e3db4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [ /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_e3db4.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/y9/x_bsbhls1m3c3dcxdt2hddxc0000gn/T//cc7uCqL6.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a8186.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ /usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_a8186.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/y9/x_bsbhls1m3c3dcxdt2hddxc0000gn/T//ccALo4l9.s]
   ignore line: [GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 2.33.1.20191025]
   ignore line: [COMPILER_PATH=/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/:/usr/local/Caskroom/gcc-arm-embedded/9-2019-q4-major/gcc-arm-none-eabi-9-2019-q4-major/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e3db4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [Linking CXX static library libcmTC_e3db4.a]
-  ignore line: ["/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P CMakeFiles/cmTC_e3db4.dir/cmake_clean_target.cmake]
-  ignore line: ["/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_e3db4.dir/link.txt --verbose=1]
-  ignore line: [arm-none-eabi-ar qc libcmTC_e3db4.a  CMakeFiles/cmTC_e3db4.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/usr/local/bin/arm-none-eabi-ranlib libcmTC_e3db4.a]
-  ignore line: [gmake[1]: Leaving directory '/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a8186.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [Linking CXX static library libcmTC_a8186.a]
+  ignore line: ["/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P CMakeFiles/cmTC_a8186.dir/cmake_clean_target.cmake]
+  ignore line: ["/Users/kai/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_a8186.dir/link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_a8186.a CMakeFiles/cmTC_a8186.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/local/bin/arm-none-eabi-ranlib libcmTC_a8186.a]
+  ignore line: [gmake[1]: Leaving directory '/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []
   implicit libs: []

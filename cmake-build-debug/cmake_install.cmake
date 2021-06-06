@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341
+# Install script for directory: /Users/kai/CLionProjects/LCDDrv4ATK2.8
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,6 +32,11 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "TRUE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "arm-none-eabi-objdump")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
@@ -40,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/kai/Desktop/mySync/mySTProject/testTFTforATKF4_9341/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/kai/CLionProjects/LCDDrv4ATK2.8/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
