@@ -15,26 +15,26 @@ uint8_t DFT_SCAN_DIR;
 
 lcd_dev lcddev;
 
-void LCD_WR_REG(__IO uint16_t regval) {
+void LCD_WR_REG(__IO uint8_t regval) {
     LCD->LCD_REG = regval;
 }
 
-void LCD_WR_DATA(__IO uint16_t data) {
+void LCD_WR_DATA(__IO uint8_t data) {
     LCD->LCD_RAM = data;
 }
 
-uint16_t LCD_RD_DATA(void) {
-    __IO uint16_t ram;
+uint8_t LCD_RD_DATA(void) {
+    __IO uint8_t ram;
     ram = LCD->LCD_RAM;
     return ram;
 }
 
-void LCD_WriteReg(uint16_t LCD_Reg, uint16_t LCD_RegValue) {
+void LCD_WriteReg(uint8_t LCD_Reg, uint8_t LCD_RegValue) {
     LCD->LCD_REG = LCD_Reg;
     LCD->LCD_RAM = LCD_RegValue;
 }
 
-uint16_t LCD_ReadReg(uint16_t LCD_Reg) {
+uint16_t LCD_ReadReg(uint8_t LCD_Reg) {
     LCD_WR_REG(LCD_Reg);
     return LCD_RD_DATA();
 }
@@ -60,17 +60,17 @@ void LCD_Display_Dir(uint8_t dir) {
     if (dir == 0)         // 竖屏
     {
         lcddev.dir = 0;
-        lcddev.width = 240;
-        lcddev.height = 320;
+        lcddev.width = 128;
+        lcddev.height = 160;
 
         lcddev.wramcmd = 0X2C;
         lcddev.setxcmd = 0X2A;
         lcddev.setycmd = 0X2B;
-        DFT_SCAN_DIR = U2D_R2L;
+        DFT_SCAN_DIR = D2U_L2R;
     } else {            // 横屏
         lcddev.dir = 1;
-        lcddev.width = 320;
-        lcddev.height = 240;
+        lcddev.width = 160;
+        lcddev.height = 128;
 
         lcddev.wramcmd = 0X2C;
         lcddev.setxcmd = 0X2A;
@@ -159,11 +159,11 @@ void LCD_Scan_Dir(enum SCAN_DIR dir) {
 void LCD_SetCursor(uint16_t Xpos, uint16_t Ypos) {
     LCD_WR_REG(lcddev.setxcmd);
     LCD_WR_DATA(Xpos >> 8);
-    LCD_WR_DATA(Xpos & 0XFF);
+    LCD_WR_DATA(Xpos & 0xff);
 
     LCD_WR_REG(lcddev.setycmd);
     LCD_WR_DATA(Ypos >> 8);
-    LCD_WR_DATA(Ypos & 0XFF);
+    LCD_WR_DATA(Ypos & 0xff);
 }
 
 void LCD_Clear(enum COLOR color) {
@@ -173,11 +173,12 @@ void LCD_Clear(enum COLOR color) {
     LCD_SetCursor(0x00, 0x0000);
     LCD_WriteRAM_Prepare();
     for (index = 0; index < totalpoint; index++) {
-        LCD->LCD_RAM = color;
+        LCD->LCD_RAM = color >> 8;
+        LCD->LCD_RAM = color & 0xff;
     }
 }
 
-void LCD_Color_Fill(uint16_t sx, uint16_t sy, uint16_t ex, uint16_t ey, uint16_t color) {
+void LCD_Color_Fill(uint8_t sx, uint8_t sy, uint8_t ex, uint8_t ey, uint16_t color) {
     uint16_t height, width;
     uint16_t i, j;
     width = ex - sx + 1;
@@ -185,7 +186,10 @@ void LCD_Color_Fill(uint16_t sx, uint16_t sy, uint16_t ex, uint16_t ey, uint16_t
     for (i = 0; i < height; i++) {
         LCD_SetCursor(sx, sy + i);
         LCD_WriteRAM_Prepare();
-        for (j = 0; j < width; j++)LCD->LCD_RAM = color;
+        for (j = 0; j < width; j++) {
+            LCD->LCD_RAM = color >> 8;
+            LCD->LCD_RAM = color & 0xff;
+        }
     }
 }
 
@@ -197,7 +201,10 @@ void LCD_ShowImage(uint16_t x_start, uint16_t y_start, uint16_t x_end, uint16_t 
     for (i = 0; i < height; i++) {
         LCD_SetCursor(x_start, y_start + i);
         LCD_WriteRAM_Prepare();
-        for (j = 0; j < width; j++)LCD->LCD_RAM = color[i * width + j];
+        for (j = 0; j < width; j++){
+            LCD->LCD_RAM = color[i * width + j] >> 8;
+            LCD->LCD_RAM = color[i * width + j] & 0xff;
+        }
     }
 }
 
@@ -277,89 +284,122 @@ void LCD_Draw_Circle(uint16_t x0, uint16_t y0, uint8_t r) {
 }
 
 void LCD_Init() {
-    HAL_Delay(50);
-    LCD_WriteReg(0x0000, 0x0001);
-    HAL_Delay(50);
-
+//    HAL_Delay(50);
+//    LCD_WriteReg(0x00, 0x01);
+//    HAL_Delay(50);
+    char ch[30];
     //ST7789V的id为0x8552
+//    LCD_WR_REG(0);
     LCD_WR_REG(0X04);
     lcddev.id = LCD_RD_DATA();
     lcddev.id = LCD_RD_DATA();
+    sprintf(ch, "id:%d ", lcddev.id);
+    HAL_UART_Transmit(&huart1, (uint8_t *) &ch, strlen(ch), 0xff);
     lcddev.id = LCD_RD_DATA();
     lcddev.id <<= 8;
     lcddev.id |= LCD_RD_DATA();
-    char ch[30];
     sprintf(ch, "lcd:%d", lcddev.id);
     HAL_UART_Transmit(&huart1, (uint8_t *) &ch, strlen(ch), 0xff);
 
-    //---------------------------------------------------------------------------------------------------//
-    LCD_WR_REG(0x11);
-    HAL_Delay(120); //Delay 120ms
-    //------------------------------display and color format setting--------------------------------//
-    LCD_WR_REG(0x36);
-    LCD_WR_DATA(0x00);
-    LCD_WR_REG(0x3a);
+    LCD_WR_REG(0x11);     // Sleep out
+    HAL_Delay(120);                //delay_ms 120ms
+    LCD_WR_REG(0xB1);     //In Normal mode
     LCD_WR_DATA(0x05);
-    //--------------------------------ST7789V Frame rate setting----------------------------------//
-    LCD_WR_REG(0xb2);
-    LCD_WR_DATA(0x0c);
-    LCD_WR_DATA(0x0c);
+    LCD_WR_DATA(0x3C);
+    LCD_WR_DATA(0x3C);
+    LCD_WR_REG(0xB2);     //In Idle mode
+    LCD_WR_DATA(0x05);
+    LCD_WR_DATA(0x3C);
+    LCD_WR_DATA(0x3C);
+    LCD_WR_REG(0xB3);     //In Partial mode
+    LCD_WR_DATA(0x05);
+    LCD_WR_DATA(0x3C);
+    LCD_WR_DATA(0x3C);
+    LCD_WR_DATA(0x05);
+    LCD_WR_DATA(0x3C);
+    LCD_WR_DATA(0x3C);
+    LCD_WR_REG(0xB4);
+    LCD_WR_DATA(0x03);   //Normal mode dot inversion
+    LCD_WR_REG(0xC0);     //Power Control
+    LCD_WR_DATA(0x28);   //AVDD=4.6V, GVDD=4.3V
+    LCD_WR_DATA(0x08);   //GVCL=-4.3V
+    LCD_WR_DATA(0x04);   //MODE=2X
+    LCD_WR_REG(0xC1);     //Power Control
+    LCD_WR_DATA(0xC0);   //V25=2.4, VGH=2*4.6+2.4-0.5=11.1, VGL=-7.5
+    LCD_WR_REG(0xC2);
+    LCD_WR_DATA(0x0D);
     LCD_WR_DATA(0x00);
-    LCD_WR_DATA(0x33);
-    LCD_WR_DATA(0x33);
-    LCD_WR_REG(0xb7);
-    LCD_WR_DATA(0x35);
-    //---------------------------------ST7789V Power setting--------------------------------------//
-    LCD_WR_REG(0xbb);
-    LCD_WR_DATA(0x28);
-    LCD_WR_REG(0xc0);
-    LCD_WR_DATA(0x2c);
-    LCD_WR_REG(0xc2);
-    LCD_WR_DATA(0x01);
-    LCD_WR_REG(0xc3);
-    LCD_WR_DATA(0x0b);
-    LCD_WR_REG(0xc4);
-    LCD_WR_DATA(0x20);
-    LCD_WR_REG(0xc6);
-    LCD_WR_DATA(0x0f);
-    LCD_WR_REG(0xd0);
-    LCD_WR_DATA(0xa4);
-    LCD_WR_DATA(0xa1);
-    //--------------------------------ST7789V gamma setting---------------------------------------//
-    LCD_WR_REG(0xe0);
-    LCD_WR_DATA(0xd0);
-    LCD_WR_DATA(0x01);
-    LCD_WR_DATA(0x08);
-    LCD_WR_DATA(0x0f);
-    LCD_WR_DATA(0x11);
-    LCD_WR_DATA(0x2a);
-    LCD_WR_DATA(0x36);
-    LCD_WR_DATA(0x55);
-    LCD_WR_DATA(0x44);
-    LCD_WR_DATA(0x3a);
-    LCD_WR_DATA(0x0b);
-    LCD_WR_DATA(0x06);
-    LCD_WR_DATA(0x11);
-    LCD_WR_DATA(0x20);
-    LCD_WR_REG(0xe1);
-    LCD_WR_DATA(0xd0);
-    LCD_WR_DATA(0x02);
-    LCD_WR_DATA(0x07);
-    LCD_WR_DATA(0x0a);
-    LCD_WR_DATA(0x0b);
+    LCD_WR_REG(0xC3);
+    LCD_WR_DATA(0x8D);
+    LCD_WR_DATA(0x2A);
+    LCD_WR_REG(0xC4);
+    LCD_WR_DATA(0x8D);
+    LCD_WR_DATA(0xEE);
+    LCD_WR_REG(0xC5);     //Vcom
     LCD_WR_DATA(0x18);
-    LCD_WR_DATA(0x34);
-    LCD_WR_DATA(0x43);
-    LCD_WR_DATA(0x4a);
-    LCD_WR_DATA(0x2b);
-    LCD_WR_DATA(0x1b);
-    LCD_WR_DATA(0x1c);
-    LCD_WR_DATA(0x22);
-    LCD_WR_DATA(0x1f);
-    LCD_WR_REG(0x29);
-    LCD_WR_REG(0x2c);
+    LCD_WR_REG(0x36);
+    LCD_WR_DATA(0xC0);
+    LCD_WR_REG(0xE0);
+    LCD_WR_DATA(0x04);
+    LCD_WR_DATA(0x1B);
+    LCD_WR_DATA(0x1C);
+    LCD_WR_DATA(0x1E);
+    LCD_WR_DATA(0x3C);
+    LCD_WR_DATA(0x33);
+    LCD_WR_DATA(0x29);
+    LCD_WR_DATA(0x2B);
+    LCD_WR_DATA(0x2A);
+    LCD_WR_DATA(0x26);
+    LCD_WR_DATA(0x2E);
+    LCD_WR_DATA(0x39);
+    LCD_WR_DATA(0x00);
+    LCD_WR_DATA(0x02);
+    LCD_WR_DATA(0x02);
+    LCD_WR_DATA(0x10);
+
+    LCD_WR_REG(0xE1);
+    LCD_WR_DATA(0x04);
+    LCD_WR_DATA(0x1B);
+    LCD_WR_DATA(0x1C);
+    LCD_WR_DATA(0x1E);
+    LCD_WR_DATA(0x3C);
+    LCD_WR_DATA(0x33);
+    LCD_WR_DATA(0x29);
+    LCD_WR_DATA(0x2B);
+    LCD_WR_DATA(0x29);
+    LCD_WR_DATA(0x26);
+    LCD_WR_DATA(0x2E);
+    LCD_WR_DATA(0x39);
+    LCD_WR_DATA(0x00);
+    LCD_WR_DATA(0x02);
+    LCD_WR_DATA(0x02);
+    LCD_WR_DATA(0x10);
+
+    LCD_WR_REG(0x3A);
+    LCD_WR_DATA(0x05);
+
+    LCD_WR_REG(0x11);     // Sleep out
+    HAL_Delay(120);
+
+
+    LCD_WR_REG(0x2A);
+    LCD_WR_DATA(0x00);
+    LCD_WR_DATA(0x00);
+    LCD_WR_DATA(0x00);
+    LCD_WR_DATA(0x7F);
+
+    LCD_WR_REG(0x2B);
+    LCD_WR_DATA(0x00);
+    LCD_WR_DATA(0x00);
+    LCD_WR_DATA(0x00);
+    LCD_WR_DATA(0x9F);
+
+    LCD_WR_REG(0x29);         // Display Ondelay_ms(20);
+    HAL_Delay(20); //delay_ms 20ms
+    LCD_WR_REG(0x2C);
+    HAL_Delay(20); //delay_ms 20ms
 
     LCD_Display_Dir(0);
     HAL_GPIO_WritePin(LCD_BL_GPIO_Port, LCD_BL_Pin, GPIO_PIN_SET);
-    LCD_Clear(WHITE);
+    LCD_Clear(BLUE);
 }

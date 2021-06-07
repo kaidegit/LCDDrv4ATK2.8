@@ -16,14 +16,14 @@ typedef struct {
     uint16_t height;
     uint16_t id;
     uint8_t dir;         // 0 横屏 1 竖屏
-    uint16_t wramcmd;    // 开始写gram指令
-    uint16_t setxcmd;    // 设置x坐标指令
-    uint16_t setycmd;    // 设置y坐标指令
+    uint8_t wramcmd;    // 开始写gram指令
+    uint8_t setxcmd;    // 设置x坐标指令
+    uint8_t setycmd;    // 设置y坐标指令
 } lcd_dev;
 
 typedef struct {
-    uint16_t LCD_REG;
-    uint16_t LCD_RAM;
+    __IO uint8_t LCD_REG;
+    __IO uint8_t LCD_RAM;
 } LCD_TypeDef;
 
 enum SCAN_DIR {
@@ -48,19 +48,19 @@ enum COLOR {
 };
 
 
-#define LCD_BASE        ((uint32_t)(0x6C000000 | 0x0000007E))
+#define LCD_BASE        ((uint32_t)(0x6C000000 | 0x0000003F))
 #define LCD             ((LCD_TypeDef *) LCD_BASE)
 
 
-void LCD_WR_REG(__IO uint16_t regval);
+void LCD_WR_REG(__IO uint8_t regval);
 
-void LCD_WR_DATA(__IO uint16_t data);
+void LCD_WR_DATA(__IO uint8_t data);
 
-uint16_t LCD_RD_DATA(void);
+uint8_t LCD_RD_DATA(void);
 
-void LCD_WriteReg(uint16_t LCD_Reg, uint16_t LCD_RegValue);
+void LCD_WriteReg(uint8_t LCD_Reg, uint8_t LCD_RegValue);
 
-uint16_t LCD_ReadReg(uint16_t LCD_Reg);
+uint16_t LCD_ReadReg(uint8_t LCD_Reg);
 
 void LCD_WriteRAM_Prepare(void);
 
@@ -78,7 +78,7 @@ void LCD_Clear(enum COLOR color);
 
 void LCD_Init();
 
-void LCD_Color_Fill(uint16_t sx, uint16_t sy, uint16_t ex, uint16_t ey, uint16_t color);
+void LCD_Color_Fill(uint8_t sx, uint8_t sy, uint8_t ex, uint8_t ey, uint16_t color);
 
 void LCD_ShowImage(uint16_t x_start, uint16_t y_start, uint16_t x_end, uint16_t y_end, const uint16_t *color);
 

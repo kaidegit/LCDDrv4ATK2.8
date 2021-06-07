@@ -35,28 +35,28 @@ void main_cpp() {
 //    sprintf(ch, "%d %d %d %d %d %d\n", b[0], b[1], b[2], b[3], b[4], b[5]);
 //    HAL_UART_Transmit(&huart1, (uint8_t *) ch, strlen(ch), 0xff);
 
-    TP_Init();
+//    TP_Init();
     while (true) {
         // LCD Test
-//        LCD_Clear(WHITE);
-//        HAL_Delay(500);
-//        LCD_Clear(BLACK);
-//        HAL_Delay(500);
-//        LCD_Clear(BLUE);
-//        HAL_Delay(500);
+        LCD_Clear(WHITE);
+        HAL_Delay(500);
+        LCD_Clear(BLACK);
+        HAL_Delay(500);
+        LCD_Clear(BLUE);
+        HAL_Delay(500);
 //        LCD_Color_Fill(100,100,200,200, (uint16_t)0xFFE0);
 //        HAL_Delay(1000);
-//        LCD_ShowImage(10, 10, 129, 129, (uint16_t *) touxiang_map);
-//        HAL_Delay(1000);
+        LCD_ShowImage(0, 0, 119, 119, (uint16_t *) touxiang_map);
+        HAL_Delay(1000);
 //        // Touch Test
-        x = pos.x;
-        y = pos.y;
-        TP_Scan(0);
-        if ((x != pos.x) || (y != pos.y)) {
-            sprintf(ch, "x:%d,y:%d\n", pos.x, pos.y);
-            HAL_UART_Transmit(&huart1, (uint8_t *) ch, strlen(ch), 0xff);
-            LCD_DrawPoint(x, y);
-        }
+//        x = pos.x;
+//        y = pos.y;
+//        TP_Scan(0);
+//        if ((x != pos.x) || (y != pos.y)) {
+//            sprintf(ch, "x:%d,y:%d\n", pos.x, pos.y);
+//            HAL_UART_Transmit(&huart1, (uint8_t *) ch, strlen(ch), 0xff);
+//            LCD_DrawPoint(x, y);
+//        }
     }
 
 }
