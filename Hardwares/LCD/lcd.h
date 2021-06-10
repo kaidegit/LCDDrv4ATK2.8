@@ -58,7 +58,7 @@ void LCD_WR_DATA(__IO uint8_t data);
 
 uint8_t LCD_RD_DATA(void);
 
-void LCD_WriteReg(uint8_t LCD_Reg, uint8_t LCD_RegValue);
+void LCD_WriteReg(uint8_t LCD_Reg, uint16_t LCD_RegValue);
 
 uint16_t LCD_ReadReg(uint8_t LCD_Reg);
 
