@@ -48,9 +48,9 @@ void main_cpp() {
 //        HAL_Delay(1000);
         LCD_ShowImage(0, 0, 119, 119, (uint16_t *) touxiang_map);
         HAL_Delay(1000);
-        HAL_GPIO_WritePin(LCD_BL_GPIO_Port,LCD_BL_Pin,GPIO_PIN_RESET);
-        HAL_Delay(1000);
-        HAL_GPIO_WritePin(LCD_BL_GPIO_Port, LCD_BL_Pin, GPIO_PIN_SET);
+//        HAL_GPIO_WritePin(LCD_BL_GPIO_Port,LCD_BL_Pin,GPIO_PIN_RESET);
+//        HAL_Delay(1000);
+//        HAL_GPIO_WritePin(LCD_BL_GPIO_Port, LCD_BL_Pin, GPIO_PIN_SET);
 //        // Touch Test
 //        x = pos.x;
 //        y = pos.y;

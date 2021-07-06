@@ -15,30 +15,30 @@ uint8_t DFT_SCAN_DIR;
 
 lcd_dev lcddev;
 
-void LCD_WR_REG(__IO uint8_t regval) {
+void LCD_WR_REG(__IO uint16_t regval) {
     LCD->LCD_REG = regval;
 }
 
-void LCD_WR_DATA(__IO uint8_t data) {
+void LCD_WR_DATA(__IO uint16_t data) {
     LCD->LCD_RAM = data;
 }
 
-uint8_t LCD_RD_DATA(void) {
-    __IO uint8_t ram;
+uint16_t LCD_RD_DATA(void) {
+    __IO uint16_t ram;
     ram = LCD->LCD_RAM;
     return ram;
 }
 
-void LCD_WriteReg(uint8_t LCD_Reg, uint16_t LCD_RegValue) {
-    LCD_WR_REG(LCD_Reg);
-    LCD_WR_DATA(LCD_RegValue >> 8);
-    LCD_WR_DATA(LCD_RegValue & 0xff);
+void LCD_WriteReg(uint16_t LCD_Reg, uint16_t LCD_RegValue) {
+    LCD->LCD_REG = LCD_Reg;
+    LCD->LCD_RAM = LCD_RegValue;
 }
 
-uint16_t LCD_ReadReg(uint8_t LCD_Reg) {
+uint16_t LCD_ReadReg(uint16_t LCD_Reg) {
     LCD_WR_REG(LCD_Reg);
     return LCD_RD_DATA();
 }
+
 
 void LCD_WriteRAM_Prepare(void) {
     LCD->LCD_REG = lcddev.wramcmd;
@@ -146,15 +146,11 @@ void LCD_Scan_Dir(enum SCAN_DIR dir) {
     LCD_WriteReg(dirreg, regval);
 
     LCD_WR_REG(lcddev.setxcmd);
-    LCD_WR_DATA(0);
-    LCD_WR_DATA(0);
-    LCD_WR_DATA((lcddev.width - 1) >> 8);
-    LCD_WR_DATA((lcddev.width - 1) & 0XFF);
+//    LCD_WR_DATA(0);
+    LCD_WR_DATA(lcddev.width - 1);
     LCD_WR_REG(lcddev.setycmd);
-    LCD_WR_DATA(0);
-    LCD_WR_DATA(0);
-    LCD_WR_DATA((lcddev.height - 1) >> 8);
-    LCD_WR_DATA((lcddev.height - 1) & 0XFF);
+//    LCD_WR_DATA(0);
+    LCD_WR_DATA(lcddev.height - 1);
 }
 
 void LCD_SetCursor(uint16_t Xpos, uint16_t Ypos) {
@@ -176,8 +172,7 @@ void LCD_Clear(enum COLOR color) {
     LCD_SetCursor(0x00, 0x0000);
     LCD_WriteRAM_Prepare();
     for (index = 0; index < totalpoint; index++) {
-        LCD->LCD_RAM = color >> 8;
-        LCD->LCD_RAM = color & 0xff;
+        LCD->LCD_RAM = color;
     }
 }
 
@@ -190,8 +185,7 @@ void LCD_Color_Fill(uint8_t sx, uint8_t sy, uint8_t ex, uint8_t ey, uint16_t col
         LCD_SetCursor(sx, sy + i);
         LCD_WriteRAM_Prepare();
         for (j = 0; j < width; j++) {
-            LCD->LCD_RAM = color >> 8;
-            LCD->LCD_RAM = color & 0xff;
+            LCD->LCD_RAM = color;
         }
     }
 }
@@ -205,8 +199,7 @@ void LCD_ShowImage(uint16_t x_start, uint16_t y_start, uint16_t x_end, uint16_t 
         LCD_SetCursor(x_start, y_start + i);
         LCD_WriteRAM_Prepare();
         for (j = 0; j < width; j++) {
-            LCD->LCD_RAM = color[i * width + j] >> 8;
-            LCD->LCD_RAM = color[i * width + j] & 0xff;
+            LCD->LCD_RAM = color[i * width + j];
         }
     }
 }
@@ -333,13 +326,13 @@ void LCD_Init() {
     LCD_WriteReg(0x56, 0x0000);
     LCD_WriteReg(0x57, 0x0104);
     LCD_WriteReg(0x58, 0x0E06);
-    LCD_WriteReg(0x59, 0x060E);;
+    LCD_WriteReg(0x59, 0x060E);
     LCD_WriteReg(0x20, 0x0000);
     LCD_WriteReg(0x21, 0x0000);
     LCD_WriteReg(0x10, 0x0000);
     LCD_WriteReg(0x07, 0x1017);
 
     LCD_Display_Dir(0);
-    //HAL_GPIO_WritePin(LCD_BL_GPIO_Port, LCD_BL_Pin, GPIO_PIN_SET);
+    HAL_GPIO_WritePin(LCD_BL_GPIO_Port, LCD_BL_Pin, GPIO_PIN_SET);
     LCD_Clear(BLUE);
 }

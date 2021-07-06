@@ -22,8 +22,8 @@ typedef struct {
 } lcd_dev;
 
 typedef struct {
-    __IO uint8_t LCD_REG;
-    __IO uint8_t LCD_RAM;
+    __IO uint16_t LCD_REG;
+    __IO uint16_t LCD_RAM;
 } LCD_TypeDef;
 
 enum SCAN_DIR {
@@ -48,19 +48,19 @@ enum COLOR {
 };
 
 
-#define LCD_BASE        ((uint32_t)(0x6C000000 | 0x0000003F))
+#define LCD_BASE        ((uint32_t)(0x6C000000 | 0x0000007E))
 #define LCD             ((LCD_TypeDef *) LCD_BASE)
 
 
-void LCD_WR_REG(__IO uint8_t regval);
+void LCD_WR_REG(__IO uint16_t regval);
 
-void LCD_WR_DATA(__IO uint8_t data);
+void LCD_WR_DATA(__IO uint16_t data);
 
-uint8_t LCD_RD_DATA(void);
+uint16_t LCD_RD_DATA(void);
 
-void LCD_WriteReg(uint8_t LCD_Reg, uint16_t LCD_RegValue);
+void LCD_WriteReg(uint16_t LCD_Reg, uint16_t LCD_RegValue);
 
-uint16_t LCD_ReadReg(uint8_t LCD_Reg);
+uint16_t LCD_ReadReg(uint16_t LCD_Reg);
 
 void LCD_WriteRAM_Prepare(void);
 
