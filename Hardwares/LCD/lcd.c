@@ -303,7 +303,7 @@ void LCD_Init() {
     LCD_WriteReg(0x08, 0x0202);
     LCD_WriteReg(0x0F, 0x0901);
     LCD_WriteReg(0x10, 0x0000);
-    LCD_WriteReg(0x11, 0x1B41); //The register setting is suitable for VCI=2.8V
+    LCD_WriteReg(0x11, 0x1038); //The register setting is suitable for VCI=2.8V
     LCD_WriteReg(0x12, 0x200E);//The register setting is suitable for VCI=2.8V
     LCD_WriteReg(0x13, 0x0052); //The register setting is suitable for VCI=2.8V
     LCD_WriteReg(0x14, 0x4B5C); //The register setting is suitable for VCI=2.8V
